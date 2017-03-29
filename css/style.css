@@ -76,7 +76,7 @@ ul>li {
   margin: 0 auto;
   letter-spacing: 5px;
   animation:
-    typing 6.5s steps(50, end),
+    typing 4.5s steps(50, end),
     blink-caret .75s step-end infinite;
   width: 565px;
 }
@@ -89,5 +89,15 @@ ul>li {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #fff; }
-}
-}
+  }
+
+@media screen and (max-width: 624px) {
+  h1#typewriter  {
+    font-size: 28px;
+    width: 370px;
+  }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 370px }
+    }
+  }
