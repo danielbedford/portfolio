@@ -1,0 +1,134 @@
+/*===============FONTS===============*/
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
+/*===========UNIVERSALS============*/
+
+.white-text {
+  color: #fff;
+}
+
+.grey-text {
+  color: #627676
+}
+
+.special-elite {
+  font-family: 'Special Elite', cursive;
+}
+
+.alegreya {
+  font-family: 'Alegreya', serif;
+}
+
+.nav {
+  margin: 20px;
+}
+
+.thumbnail-gutter {
+  margin-right: 80px;
+}
+
+.thumbnail {
+  width: 300px;
+}
+/*===========NAVBAR===============*/
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgba(0, 0, 0, .5)
+}
+
+a:focus, a:hover {
+  color: #fff;
+}
+
+#brand {
+  float: left;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration: none;
+  border: solid 4px #fff;
+}
+
+#brand:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5)
+}
+
+ul>li {
+  font-size: 20px;
+}
+
+/*===============HERO================*/
+
+#workspace {
+  background-image: url('../img/workspace.jpg');
+  height: 600px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#typewriter-wrapper {
+  margin-top: 200px;
+}
+
+#typewriter {
+  font-size: 50px;
+  overflow: hidden;
+  border-right: 5px solid #fff;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 5px;
+  animation:
+    typing 4.5s steps(50, end),
+    blink-caret .75s step-end infinite;
+  width: 565px;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 565px }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff; }
+  }
+
+@media screen and (max-width: 624px) {
+  h1#typewriter  {
+    font-size: 28px;
+    width: 370px;
+  }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 370px }
+    }
+  }
+
+/*===========PORTFOLIO SECTION===========*/
+
+#portfolio {
+  background-color: #fff;
+  height: 600px;
+}
+
+#thumbnail-wrapper {
+  margin: 200px 150px 100px 90px;
+}
+
+/*==============FOOTER===================*/
+
+.icon {
+  color: #627676;
+  font-size: 40px;
+  margin: 10px;
+}
