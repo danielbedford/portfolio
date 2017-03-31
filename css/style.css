@@ -1,33 +1,38 @@
 /*===============FONTS===============*/
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
 /*===========UNIVERSALS============*/
-
-#workspace {
-  background-image: url('../img/workspace.jpg');
-  height: 600px;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-#portfolio {
-  background-color: #fff;
-  height: 600px;
-}
 
 .white-text {
   color: #fff;
+}
+
+.grey-text {
+  color: #627676
 }
 
 .special-elite {
   font-family: 'Special Elite', cursive;
 }
 
-/*===========NAVBAR===============*/
+.alegreya {
+  font-family: 'Alegreya', serif;
+}
 
 .nav {
   margin: 20px;
 }
+
+.thumbnail-gutter {
+  margin-right: 80px;
+}
+
+.thumbnail {
+  width: 300px;
+}
+/*===========NAVBAR===============*/
 
 a {
     color: #fff;
@@ -63,6 +68,13 @@ ul>li {
 }
 
 /*===============HERO================*/
+
+#workspace {
+  background-image: url('../img/workspace.jpg');
+  height: 600px;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 #typewriter-wrapper {
   margin-top: 200px;
@@ -101,3 +113,22 @@ ul>li {
       to { width: 370px }
     }
   }
+
+/*===========PORTFOLIO SECTION===========*/
+
+#portfolio {
+  background-color: #fff;
+  height: 600px;
+}
+
+#thumbnail-wrapper {
+  margin: 200px 150px 100px 90px;
+}
+
+/*==============FOOTER===================*/
+
+.icon {
+  color: #627676;
+  font-size: 40px;
+  margin: 10px;
+}
