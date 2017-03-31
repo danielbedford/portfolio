@@ -40,7 +40,7 @@ a {
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
-  background-color: rgba(0, 0, 0, .5)
+  background-color: rgba(255, 255, 255, .5)
 }
 
 a:focus, a:hover {
@@ -121,8 +121,12 @@ ul>li {
   height: 600px;
 }
 
+#text-wrapper {
+  margin-top: 100px;
+}
+
 #thumbnail-wrapper {
-  margin: 200px 150px 100px 90px;
+  margin: 70px 150px 100px 90px;
 }
 
 /*==============FOOTER===================*/

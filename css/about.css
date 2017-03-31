@@ -2,7 +2,25 @@
 
 #mac-pic {
   background-image: url('../img/mac-pic.jpg');
-  height: 600px;
+  height: 800px;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.about-icon {
+  color: #413C40;
+  font-size: 40px;
+  margin-top: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#about-paragraph-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+#about-paragraph {
+  font-size: 20px;
 }
