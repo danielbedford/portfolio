@@ -25,12 +25,27 @@
   margin: 20px;
 }
 
-.thumbnail-gutter {
-  margin-right: 80px;
+.white-box {
+  background-color: #efefef;
+  height: 600px;
 }
 
-.thumbnail {
-  width: 300px;
+.text-border {
+  border: solid 4px #fff;
+  height: 400px;
+}
+
+.column-gutter {
+  margin: 60px;
+}
+
+.gutter {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.push-right {
+  margin-left: 20px;
 }
 /*===========NAVBAR===============*/
 
@@ -65,6 +80,23 @@ a:focus, a:hover {
 
 ul>li {
   font-size: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+
+.navbar-default {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar {
+  border: none;
 }
 
 /*===============HERO================*/
@@ -116,11 +148,6 @@ ul>li {
 
 /*===========PORTFOLIO SECTION===========*/
 
-#portfolio {
-  background-color: #fff;
-  height: 600px;
-}
-
 #text-wrapper {
   margin-top: 100px;
 }
@@ -129,10 +156,39 @@ ul>li {
   margin: 70px 150px 100px 90px;
 }
 
+.thumbnail-gutter {
+  margin-right: 80px;
+}
+
+.thumbnail {
+  width: 300px;
+}
+/*================ABOUT===================*/
+
+#about {
+  background-color: #627676;
+  height: 600px;
+}
+
+.about-icon {
+  color: #fff;
+  font-size: 60px;
+  margin: 8px;
+}
+
+.contact-icon {
+  color: #fff;
+  font-size: 60px;
+  margin: 8px;
+}
 /*==============FOOTER===================*/
 
+#footer {
+  background-color: #627676;
+}
+
 .icon {
-  color: #627676;
+  color: #fff;
   font-size: 40px;
   margin: 10px;
 }
